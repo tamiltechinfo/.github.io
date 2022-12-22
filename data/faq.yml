@@ -1,0 +1,18 @@
+---
+enable: false
+title: Frequently asked questions
+#description: The quick brown fox jumps over a lazy dog. DJs flock by when MTV ax Error6251 is the best. quiz prog. Junk MTV quiz graced by fox whelps.
+faqItem:
+  - question: What is Whiteboard Animaton?
+    answer:  Whiteboard animation is a style of creating video by presenting images as being drawn on the board. This is very useful for creating animated video in simple and provides great user engagement.
+    dataTarget: One
+    show: show
+
+  - question: What you can do with Benime?
+    answer: You can create marketing and presentation videos in minutes and it simple design and allows you to preview the video instantly.
+    dataTarget: Two
+    show: 
+    
+  - question: What is unique features of Benime?
+    answer: Benime has amazing features of Text to speech, Motion slide animation, Customize text style, size, color and alignment, import custom SVG, animation and images from local storage, background music and voice over and much more.
+    show: 

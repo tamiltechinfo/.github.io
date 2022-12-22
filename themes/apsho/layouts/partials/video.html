@@ -1,0 +1,52 @@
+{{ with .Site.Data.video }}
+  {{ if .enable }}
+    <section class="video">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="video-iframe">
+              <img src={{ .image }} alt="video-thumb" />
+              <div class="video-icon">
+                <a class="popup-vimeo" href={{ .video }}>
+                  <i class="ti-control-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <div class="video-content">
+              <h2>
+                {{ .comment1 }}<br/>{{ .comment2 }}
+              </h2>
+              <ul class="video-content-buttons">
+                <li>
+                  <a href="https://play.google.com/store/apps/dev?id=5059705100845463179" class="btn-platform">
+                    <i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32.812"
+                        height="36.367"
+                        viewBox="0 0 32.812 36.367"
+                      >
+                        <g data-name="Group 1130">
+                          <path
+                            data-name="Path 1282"
+                            d="M30.8 14.713L5.983.527A4 4 0 000 4v28.371a4 4 0 005.981 3.471L30.8 21.654a4 4 0 000-6.941zm-10.754-3.354l-3.407 4.746-8.15-11.352zm-16.2 22.569a1.552 1.552 0 01-.633-.2 1.578 1.578 0 01-.784-1.361V4a1.566 1.566 0 011.414-1.563l11.306 15.748zm4.645-2.313l8.15-11.353 3.407 4.746zM29.6 19.549l-7.434 4.249-4.032-5.615 4.032-5.615 7.434 4.25a1.573 1.573 0 010 2.732zm0 0"
+                          />
+                        </g>
+                      </svg>
+                    </i>
+                    <div class="btn-platform-area">
+                      <span>{{ .buttonName }}</span>
+                      {{ .button2text }}
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

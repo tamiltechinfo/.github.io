@@ -1,0 +1,19 @@
+---
+enable: false
+title: What our Customers Says about our apps
+description: Apps from Benzveen to help you get the most out of your day.
+comments:
+  - text: This is the easiest video maker to make some learning media so far. I had always been imagining if making videos is the hardest thing to do for presenting my writing, but since the day I found Benime it was no longer because this is literally "that easy".
+    name: Nartri S
+    #designation: Senior Developer
+    image: images/client/client-1.png
+
+  - text: This is really innovative and exceeds my expectations so far. I can write what I want using an animated hand and a voice over my writing. It's really brilliant. A five star performance app.
+    name: Kanyi Henry
+    #designation: UX Designer
+    image: images/client/client-1.png
+
+  - text: Wonderful app. Super fast rendering. Millions ways better than expensive desktop whiteboard animation software like videoscribe and doodly.
+    name: Shams Sidd
+    #designation: CTO
+    image: images/client/client-1.png

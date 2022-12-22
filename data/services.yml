@@ -1,0 +1,16 @@
+#  icons can be found on https://themify.me/themify-icons
+---
+enable: false
+title: Why choose Benime App?
+services:
+  - icon: ti-face-smile
+    title: Easy to use
+    description: Can quickly add animated images, text, music and voice-over.Ta-da! You have an epic animated video
+
+  - icon: ti-settings
+    title: Customize
+    description: Create awesome explainer videos, whiteboard animations, education videos, marketing videos and more!
+
+  - icon: ti-money
+    title: 100% Free
+    description: Produce unlimited high-quality videos with zero cost. Import your custom assets with free of cost

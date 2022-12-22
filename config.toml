@@ -1,0 +1,61 @@
+# MAIN base
+baseURL = "https://www.tamiltechinfo.in/"
+languageCode = "en-us"
+title = "www.tamiltechinfo.in"
+theme = "apsho"
+
+# Navigation Bar
+[[menu.main]]
+    name = "Home"
+    url = "#hero"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "#feature"
+    weight = 2
+[[menu.main]]
+    name = "How To"
+    url = "#screenshots"
+    weight = 3
+[[menu.main]]
+    name = "Song Lyrics"
+    url = "#blog"
+    weight = 4
+
+# Footer Sitemap
+[[menu.sitemap]]
+    name = "Home"
+    url = "#"
+    weight = 1
+[[menu.sitemap]]
+    name = "Latest Article"
+    url = "/blog"
+    weight = 2
+[[menu.sitemap]]
+    name = "Privacy & Policy"
+    url = "/privacy"
+    weight = 3
+
+# Footer Social
+[params.social]
+facebook = "https://www.facebook.com/Tamiltechinfo.in"
+twitter = "https://twitter.com/tamiltechinfo1"
+
+[params]
+
+# Header
+logo = "images/logo.png"
+fabFormURL = "https://fabform.io/f/zWMBVeW"
+googleAnalytics = "UA-175025671-2"
+
+# Footer
+copyright1 = "All right reserved"
+copyright2 = "Copyright ©  <a href=\"https://www.tamiltechinfo.in/\" target=\"_blank\">Tamiltechinfo</a> {year}"  
+
+#contact
+email = "tamiltechinfoblog@gmail.com"
+
+# Footer Address
+[params.address]
+address = "Chennai, Tamilnadu"
+email = "tamiltechinfoblog@gmail.com"
